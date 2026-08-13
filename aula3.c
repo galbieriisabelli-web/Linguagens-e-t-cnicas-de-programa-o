@@ -16,7 +16,13 @@ int main(int argc, char *argv[]) {
 	
 	
 	printf("A Area do circulo de raio %f = %f", raio, area);
-	
-	
+	printf("Agora a do trapezio");
+
+	float area, baseMa, baseMe, h;
+
+	printf("Insira Base maior, Base menor e a altura")
+	scanf("%f", "%f", "%f", &baseMa, &baseMe, &h);
+	area = (baseMa+baseMe)*h / 2;
+	printf("A area do trapezio %f", area);
 	return 0;
 }
