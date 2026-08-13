@@ -1,21 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
 	
-	float a,b,c;
-	float r1,r2,r3; 
+	int primeiro, segundo, aux;
 	
-	a = 8;
-	b = 19;
-	r1 = a/b;
-	r2 = a-b;
-	r3 = a+b;
-//  c = a*b;
-    
-   
-   printf("As operaçoes entre %f e %f são / %f - %f + %f *%f", a,b, r1, r2, r3, c);
-    
+	printf("Insira o primeiro valor");
+	scanf("%d", &primeiro) ;
+	printf("Insira o segundo valor");
+	scanf("%d", &segundo) ;
+	
+	aux = primeiro;
+	primeiro = segundo; 
+	segundo = aux;
+	
+	
+	printf("%d \n %d", primeiro, segundo);
+	
+	
+	//Variavel que armazena o valor digitado
+	double valor;
+	
+	//Solicita um valor ao usuario
+	printf("Digite um valor: ");
+	
+	//Le um valor do tipo double
+	scanf("%lf", valor) ;
+	
+	//Imprime o valor em notacao cientifica
+	printf("Valor em notacao cientifica: %e\", valor);
+	
 	return 0;
 }
