@@ -19,18 +19,5 @@ int main(int argc, char *argv[]) {
 	
 	printf("%d \n %d", primeiro, segundo);
 	
-	
-	//Variavel que armazena o valor digitado
-	double valor;
-	
-	//Solicita um valor ao usuario
-	printf("Digite um valor: ");
-	
-	//Le um valor do tipo double
-	scanf("%lf", valor) ;
-	
-	//Imprime o valor em notacao cientifica
-	printf("Valor em notacao cientifica: %e\", valor);
-	
 	return 0;
 }
