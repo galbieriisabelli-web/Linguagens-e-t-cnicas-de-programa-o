@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    /* Declaracao das variaveis */
+    float K, M;
+
+    /* Entrada da velocidade em km/h */
+    printf("Digite a velocidade em km/h: ");
+    scanf("%f", &K);
+
+    /* Conversao da velocidade para m/s conforme a formula do enunciado */
+    M = K / 3.6;
+
+    /* Exibicao do resultado */
+    printf("Velocidade em m/s: %.2f\n", M);
+
+    return 0;
+}
