@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
  
-    //LISTA 1 EXERCÕCIO 3// 
+    //LISTA 1 EXERC√çCIO 3// 
     
 int main(int argc, char *argv[]) {
 	
@@ -30,12 +30,12 @@ int main(int argc, char *argv[]) {
 	bit_2 = resultado%2; //0
 	resultado = resultado/2; //26
 	
-	printf("O numero %d em bin·rio = %d%d%d%d%d%d%d", n,
+	printf("O numero %d em bin√°rio = %d%d%d%d%d%d%d", n,
 	         resultado%2, bit_2, bit_4, bit_8, bit_16, bit_32, bit_64);
              
     */ 
     
-    //Lista 1 EXERCÕCIO 8//
+    //Lista 1 EXERC√çCIO 8//
     
     int x1, x2, y1, y2, p1, p2;
     float dist;
@@ -47,7 +47,7 @@ int main(int argc, char *argv[]) {
     printf("Insira as coordenadas do ponto P2: ");
     scanf("%d %d", &x2, &y2);   
     
-    p1 = pow(x2-x1, 2);  //pow raÌz
+    p1 = pow(x2-x1, 2);  //pow ra√≠z
     p2 = pow(y2-y1, 2);
     
     dist = sqrt(p1+p2);
