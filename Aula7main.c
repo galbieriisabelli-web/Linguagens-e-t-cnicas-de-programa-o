@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//ex 10 lista 2
 
 int main(int argc, char *argv[]) {
 	
@@ -22,13 +23,13 @@ int main(int argc, char *argv[]) {
 	
 	*/
 	
-	//Ler um número e informar se ele é par ou ímpar//
+	//Ler um nÃºmero e informar se ele Ã© par ou Ã­mpar//
 	
 	int n;
 	
-	printf("Entre com o número: " );
+	printf("Entre com o nÃºmero: " );
 	scanf("%d", &n);
 	
-	if(n%2 == 0) printf("par"); else printf("ímpar");
+	if(n%2 == 0) printf("par"); else printf("Ã­mpar");
 	return 0;
 }
