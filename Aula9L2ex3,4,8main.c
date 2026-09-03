@@ -9,16 +9,16 @@ tipo nome (Lista de parametros){
 */
 
 void exec3 (){
-	    //Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fórmula de conversão é: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+	    //Leia um valor que represente uma temperatura em graus Celsius e apresente-a convertida em graus Fahrenheit. A fÃ³rmula de conversÃ£o Ã©: F = C * (9.0/5.0) + 32.0, sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
 	    float tempC, tempF;
         printf("Insira a temperatura em C: \n"); 
 		scanf ("%f", &tempC) ;
         tempF = tempF * (9.0/5.0) + 32.0;
-        printf("Os %f C° sao %f F \n", tempC, tempF) ;
+        printf("Os %f CÂ° sao %f F \n", tempC, tempF) ;
 }
 
 void exec4 (){
-	    //Faça um programa que Leia um valor em reais e a cotação do dólar. Em seguida, imprima o valor correspondente em dólares.
+	    //FaÃ§a um programa que Leia um valor em reais e a cotaÃ§Ã£o do dÃ³lar. Em seguida, imprima o valor correspondente em dÃ³lares.
 	    float reais, dolares, cotacao;
         printf("\nInsira o valor em reais: ");
         scanf("%f", &reais);
@@ -29,7 +29,7 @@ void exec4 (){
 }
 
 void exec8(){
-	    //(URI 1019) Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
+	    //(URI 1019) Leia um valor inteiro, que Ã© o tempo de duraÃ§Ã£o em segundos de um determinado evento em uma fÃ¡brica, e informe-o expresso no formato horas:minutos:segundos.
         int sec, horas, min;
         printf ("Insira o tempo em segundos \n") ;
         scanf ("%d", &sec);
@@ -42,7 +42,7 @@ void exec8(){
 int main(int argc, char *argv[]) {
 	
 	int op;
-	printf("Insira qual exercício quer resolver: [2|3|8]\n");
+	printf("Insira qual exercÃ­cio quer resolver: [2|3|8]\n");
 	scanf("%d", &op);
 	
 	switch(op){
